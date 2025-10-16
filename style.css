@@ -1,0 +1,142 @@
+<style>
+  body {
+    font-family: "Tahoma", sans-serif;
+    margin: 0;
+    background: #0a0a0a; /* خلفية سوداء */
+    text-align: center;
+    direction: rtl;
+    color: #fff;
+  }
+
+  header {
+    background: linear-gradient(90deg, #a80000, #ff1e1e);
+    color: white;
+    padding: 15px;
+    box-shadow: 0 3px 15px rgba(255,0,0,0.4);
+  }
+
+  nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  nav a:hover {
+    color: #ff4444;
+  }
+
+  .products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+
+  .product {
+    background: #121212;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 220px;
+    box-shadow: 0 0 15px rgba(255,0,0,0.3);
+    border: 2px solid #ff1e1e;
+    transition: 0.3s;
+  }
+
+  .product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(255,0,0,0.6);
+  }
+
+  .product img {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #ff1e1e;
+  }
+
+  button {
+    background: #ff1e1e;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  button:hover {
+    background: #a80000;
+    box-shadow: 0 0 10px #ff1e1e;
+  }
+
+  .cart {
+    background: #121212;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #ff1e1e;
+    box-shadow: 0 3px 15px rgba(255,0,0,0.3);
+    display: none;
+  }
+
+  .details {
+    max-width: 900px;
+    margin: 30px auto;
+    background: #121212;
+    padding: 20px;
+    border-radius: 12px;
+    border: 2px solid #ff1e1e;
+    box-shadow: 0 0 25px rgba(255,0,0,0.4);
+    text-align: right;
+    direction: rtl;
+  }
+
+  .details img {
+    width: 220px;
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    border: 1px solid #ff1e1e;
+  }
+
+  .meta {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #ccc;
+  }
+
+  .desc {
+    margin-top: 15px;
+    padding: 12px;
+    background: #1a1a1a;
+    border-radius: 8px;
+    color: #ff4a4a;
+    border: 1px solid #ff1e1e;
+  }
+
+  .actions {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+  }
+
+  .back-link {
+    text-decoration: none;
+    color: #ff1e1e;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  .back-link:hover {
+    color: #fff;
+  }
+</style>
+
+
+
+
